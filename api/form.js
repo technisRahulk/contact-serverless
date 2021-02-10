@@ -5,7 +5,7 @@ require("dotenv").config();
 module.exports= (req,res) =>{
      if(req.method=="POST"){
         let data =req.body;
-        //transporter object
+        //transporter object 
         const transporter = nodemailer.createTransport({
             service: 'Gmail',
             //credentials of the sender
