@@ -1,0 +1,16 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/api/form.js"
+        },
+        {
+            "src":"/api/form.js",
+            "methods":[
+                "POST",
+                "GET"
+            ],
+            "dest":"/api/form.js"
+        }
+    ]
+}
