@@ -1,6 +1,7 @@
 const nodemailer=require('nodemailer');
 require("dotenv").config();
 
+//route for sending mail
 module.exports= (req,res) =>{
      if(req.method=="POST"){
         let data =req.body;
